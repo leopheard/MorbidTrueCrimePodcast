@@ -21,7 +21,7 @@
     <source>https://github.com/leopheard/morbidtruecrimepodcast</source>
     <website>https://www.morbidpodcast.com/</website>
         	<assets>
-			<icon>resources/media/logo.jpg</icon>
+			<icon>resources/media/icon.jpg</icon>
 			<fanart>resources/media/fanart.jpg</fanart>
 			<screenshot>resources/media/fanart.jpg</screenshot>
 			<screenshot>resources/media/logo.jpg</screenshot>
