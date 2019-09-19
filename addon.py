@@ -3,7 +3,6 @@ from resources.lib import mainaddon
 
 plugin = Plugin()
 
-# base url for fetching podcasts 
 URL = "https://audioboom.com/channels/4997220.rss"
 
 @plugin.route('/')

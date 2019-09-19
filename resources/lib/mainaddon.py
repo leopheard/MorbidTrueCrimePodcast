@@ -87,23 +87,17 @@ def get_playable_podcast1(soup):
 
         except AttributeError:
             continue
-              
         item = {
                 'url': link,
                 'title': title,
 #                'desc': desc,
                 'thumbnail': "https://images.theabcdn.com/i/34958472.jpg"
         }
-        
         subjects.append(item) 
     return subjects
 
 def compile_playable_podcast1(playable_podcast1):
-    """
-    @para: list containing dict of key/values pairs for playable podcasts
-    """
     items = []
-
     for podcast in playable_podcast1:
         items.append({
             'label': podcast['title'],
@@ -112,5 +106,4 @@ def compile_playable_podcast1(playable_podcast1):
 #            'info': podcast['desc'],
             'is_playable': True,
     })
-
     return items
